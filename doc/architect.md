@@ -48,31 +48,31 @@ Microcontroller Abstraction Layer
 
 Sensor Actuator Layer
 	SalAramng
-	g_vdSalAramngInit( void )	SALエリア管理初期化
-	g_vdSalAramng4msin( void )	SALエリア管理4ms入力
-	g_vdSalAramng4msout( void )	SALエリア管理4ms出力
-	g_vdSalAramng16msin( void )	SALエリア管理16ms入力
+	g_vdSalAramngInit( void )		SALエリア管理初期化
+	g_vdSalAramng4msin( void )		SALエリア管理4ms入力
+	g_vdSalAramng4msout( void )		SALエリア管理4ms出力
+	g_vdSalAramng16msin( void )		SALエリア管理16ms入力
 	g_vdSalAramng16msout( void )	SALエリア管理16ms出力
-	g_vdSalAramng64msin( void )	SALエリア管理64ms入力
+	g_vdSalAramng64msin( void )		SALエリア管理64ms入力
 	g_vdSalAramng64msout( void )	SALエリア管理64ms出力
 
 	SalAcel
 	g_vdSalAceInit( void )		アクセル初期化
 	g_vdSalAcel16msin( void )	アクセル16ms入力
-	g_u8SalAcelPct			アクセル開度
-	g_u8SalAcelFlg			アクセル補正有無
+	g_u8SalAcelPct				アクセル開度
+	g_u8SalAcelFlg				アクセル補正有無
 
 	SalBrk
 	g_vdSalBrkInit( void )		ブレーキ初期化
 	g_vdSalBrk4msin( void )		ブレーキ4ms入力
-	g_u8SalBrkPct			ブレーキ開度
-	g_u8SalBrkFlg			ブレーキ補正有無
+	g_u8SalBrkPct				ブレーキ開度
+	g_u8SalBrkFlg				ブレーキ補正有無
 
 	SalDrvmd
 	g_vdSalDrvmdInit( void )	ドライブモード初期化
 	g_vdSalDrvmd64msin( void )	ドライブモード64ms入力
-	g_u8SalDrvmdMode		ドライブモード
-	g_u8SalDrvmdFlg			ドライブモード補正有無
+	g_u8SalDrvmdMode			ドライブモード
+	g_u8SalDrvmdFlg				ドライブモード補正有無
 
 	SalIgsw
 	g_vdSalIgswInit( void )		イグニッション初期化
